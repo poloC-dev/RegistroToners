@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica San Roque De Gonnet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>
+        
+    </header>
+    <main>
+        <div class="tittleContainer">
+            <h1>Mi aplicacion para registros.</h1>
+        </div>
+        <div class="formContainer">
+            <form id="transactionForm">
+                <h2>Registro de toner</h2>
+                <div class="input-container">
+                    <label for="transactionMarca">Marca</label>
+                    <input id="transactionMarca" name="transactionMarca" placeholder="brother">
+                </div>
+                <div class="input-container">
+                    <label for="transactionModelo">Modelo</label>
+                    <input id="transactionModelo" name="transactionModelo" placeholder="1060">
+                </div>
+                <div class="input-container">
+                    <label for="transactionCantidad">Cantidad</label>
+                    <input id="transactionCantidad" name="transactionCantidad" type="number"  placeholder="5 ">
+                </div>
+                <div class="buttonContainer">
+                    <button class="btnForm" id="botonDeEnviar">Añadir</button>
+                </div>
+            </form>
+            <section class="tableContainer">
+                <table  id="transactionTable">
+                    <thead>
+                        <tr>
+                            <th>
+                                Marca
+                            </th>
+                            <th>
+                                Modelo
+                            </th>
+                            <th>
+                                Cantidad
+                            </th>
+                            <th>
+                                Sumar
+                            </th>
+                            <th>
+                                Restar
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

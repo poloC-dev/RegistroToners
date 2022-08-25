@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    font-family: sans-serif;
+}
+
+
+/*.***** Components *****.*/
+.btn{
+    color: white;
+    letter-spacing: .2rem;
+    border-radius: 4rem;
+    background-color: rgb(27, 33, 225);
+    border-radius: .5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 3rem;
+    height: 3rem;
+    margin: .7rem;
+    cursor: pointer;
+}
+    
+.btn:hover {
+    background-color: rgb(68, 74, 252);
+    transition: all 0.3s ease-out;
+}
+
+.btnForm{
+    color: white;
+    letter-spacing: .2rem;
+    border-radius: .4rem;
+    background-color: rgb(27, 33, 225);
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem;  
+    width: 12rem;
+    margin: .7rem;
+    cursor: pointer;
+}
+    
+.btnForm:hover {
+    background-color: rgb(68, 74, 252);
+    transition: all 0.3s ease-out;
+}
+
+/*.***** Containers *****.*/
+
+.formContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(84, 178, 232);
+    width: 100%;
+    height: 80vh;
+}
+
+.formContainer .input-container{
+    margin: 1rem;
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #add5fa;
+}
+
+.tittleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(84, 178, 232);
+}
+
+/******* COMPONENTS  ********/
+
+/* transactionForm */
+
+#transactionForm{
+    background-color: #ffd448;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: .8rem;
+    width: 400px;
+}
+#transactionForm h2{
+    color: black;
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-decoration: underline;
+}
+#transactionForm .input-container{
+    display: flex;
+    width: inherit ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#transactionForm input{
+    height: 2.3rem;
+    width: 15rem;
+    font-size: 1.4rem;
+    border-radius: .3rem;
+    padding-left: .7rem;
+}
+input:hover{
+    border: red 1px solid;
+    transition: all 0.3s ease-out;
+}
+
+#transactionForm label{
+    color: black;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#transactionForm .buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* transactionTable */
+
+td, th{
+    text-align: center;
+    border: 1px solid rgb(255, 69, 69);
+    padding: .8rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(12, 21, 203);
+}
+tbody{
+    border: 1px solid rgb(255, 69, 69);
+    padding: .8rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
